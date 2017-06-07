@@ -5,18 +5,18 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-6">
-						<iframe src="${content.getTraffic_Feed_1().link}" height="100%" width="100%" />
+						<iframe src="${content.getTraffic_Feed_1().link}" height="100%" width="100%"> </iframe>
 					</div>
 					<div class="col-xs-6">
-						<iframe src="${content.getTraffic_Feed_2().link}" height="100%" width="100%" />
+						<iframe src="${content.getTraffic_Feed_2().link}" height="100%" width="100%"> </iframe>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6">
-						<iframe src="${content.getWeather_Feed().link}" height="100%" width="100%" />
+						<iframe src="${content.getWeather_Feed().link}" height="100%" width="100%"> </iframe>
 					</div>
 					<div class="col-xs-6">
-						<iframe src="${content.getCalendar_Feed().link}" height="100%" width="100%" />
+						<iframe src="${content.getCalendar_Feed().link}" height="100%" width="100%"> </iframe>
 					</div>
 				</div>				
 			</div>			
