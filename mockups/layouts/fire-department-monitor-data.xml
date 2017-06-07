@@ -1,0 +1,25 @@
+<seml>
+	<div id="SEContentResults">
+		<div class="SEContent" setest="NOT arrayLen(attributes.contents)">No articles found.</div>
+		<div class="SEContent" seloop="contents" seloopindex="content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-6">
+						<iframe src="${content.getTraffic_Feed_1().link}" height="100%" width="100%" />
+					</div>
+					<div class="col-xs-6">
+						<iframe src="${content.getTraffic_Feed_2().link}" height="100%" width="100%" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<iframe src="${content.getWeather_Feed().link}" height="100%" width="100%" />
+					</div>
+					<div class="col-xs-6">
+						<iframe src="${content.getCalendar_Feed().link}" height="100%" width="100%" />
+					</div>
+				</div>				
+			</div>			
+		</div>
+	</div>
+</seml>
